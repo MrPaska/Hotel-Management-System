@@ -1,0 +1,262 @@
+
+.item-rooms img {
+    width: 23vw;
+}
+.col-lg-10{
+	background-color: #737373;
+}
+body.bd{
+  background: linear-gradient(to bottom, rgb(0 0 0 / 40%) 0%, rgb(245 242 240 / 45%) 100%), url(../img/bckg1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+
+}
+div.rooms{
+  padding-bottom: calc(10rem - 4.5rem);
+  background: linear-gradient(to bottom, rgb(0 0 0 / 40%) 0%, rgb(245 242 240 / 45%) 100%), url(../img/bckg1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+div.masthead {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  }
+
+body.login
+{
+  background: linear-gradient(to bottom, rgb(0 0 0 / 40%) 0%, rgb(245 242 240 / 45%) 100%), url(../img/bckg1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.login-box
+{
+  max-width: 700px;
+  float: none;
+  margin: 150px auto;
+}
+
+.box-left
+{
+  background: rgba(211, 211, 211, 0.25);
+  padding: 30px;
+}
+
+.box-right
+{
+  background: rgba(255, 255, 255, 0.95);
+  padding: 30px;
+}
+.form-control
+{
+  background-color: transparent !important;
+}
+
+ .comment{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(to bottom, rgb(0 0 0 / 40%) 0%, rgb(245 242 240 / 45%) 100%), url(../img/bckg1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.wrapper{
+  padding: 20px;
+  background: #FFF;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  width: 600px;
+  min-height: 400px;
+  margin-top: 100px;
+}
+.wrapper .row{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+}
+.wrapper .form .row .input-group{
+  padding: 0 10px;
+  display: block;
+}
+
+.wrapper .form .row .input-group:first-child{
+  padding-left: 15px;
+
+}
+.wrapper .form .row .input-group:last-child{
+  padding-right: 15px;
+
+}
+
+.wrapper .form .input-group{
+  width: 100%;
+  height: 50px;
+  margin-bottom: 50px;
+}
+.wrapper .form .input-group label{
+  font-weight: 600;
+  margin-bottom: 5px;
+  display: block;
+
+}
+.wrapper .form .input-group .btn{
+  margin: 0px;
+  display: block;
+  padding: .7rem 2rem;
+  opacity: .8;
+  color: #FFF;
+  background: #4d94ff;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: .3s easy-in;
+}
+.wrapper .form .input-group .btn:hover{
+  opacity: 1;
+
+}
+
+.wrapper .form .input-group input, .wrapper .form .input-group textarea{
+  width: 100%;
+  height: 100%;
+  border: 1px solid #4d94ff;
+  outline: none;
+  padding: 5px 10px;
+}
+.wrapper .form .row .input-group.textarea{
+  width: 290px;
+}
+.wrapper .form .input-group.textarea{
+  height: 200px;
+}
+.wrapper .form .input-group.textarea textarea{
+  resize: none;
+}
+.wrapper .prev-comments .single-item{
+  background: #FFF;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  padding: 10px 20px;
+  text-align: left;
+
+}
+.wrapper .prev-comments .single-item h4{
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: #111;
+}
+.wrapper .prev-comments .single-item a{
+  margin: 10px 0;
+  font-size: 1rem;
+  color: #111;
+  text-decoration: none;
+  display: inline-block;
+}
+.wrapper .prev-comments .single-item p{
+  font-size: .9rem;
+  color: #111;
+}
+
+div.main{
+  width: 1000px;
+  margin-left: 250px;
+}
+.about_usbar{
+  height: 40%;
+
+}
+@media screen and (max-width: 850px){
+
+  .login-box{
+  width: 80%;
+  margin: 150px auto;
+}
+
+.wrapper{
+  margin: 250px auto;
+  padding: 20px;
+  background: #FFF;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  width: 80%;
+  min-height: 400px;
+}
+
+.adaptive{
+  margin: 250px auto;
+}
+
+.about_usbar{
+  height: 5%;
+}
+.comment_bar{
+  height: 0px;
+ }
+
+  }
+@media screen and (max-width: 1350px){
+div.main{
+  margin: 100px auto;
+  width: 80%;
+
+}
+}
+
+.label{
+  margin-top: 50px;
+  text-align: center;
+  font-family: Verdana;
+}
+
+.about_ushr {
+    float: center;
+    border: none;
+    background-color: blue;
+    width: 100px;
+    height: 5px;
+}
+.contactbr{
+    style="float: center;
+    border: none;
+    background-color: blue;
+    width: 250px;
+    height: 5px;
+}
+ a{
+  text-decoration: none;
+  color: black;
+ }
+ a:hover{
+  text-decoration: none;
+ }
+
+ iframe{
+  width: 100%;
+  height: 320px;
+  border: none;
+ }
+ .list{
+  height: 300px;
+ }
+ .comment_bar{
+  height: 50px;
+ }
+ i{
+  margin-bottom: 10px;
+  margin-right: 20px;
+ }
+
+th{
+  display: none;
+}
+
+td.hidden{
+  display: none;
+}

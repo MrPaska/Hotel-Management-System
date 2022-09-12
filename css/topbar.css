@@ -1,0 +1,161 @@
+
+body.bar{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: verdana;
+}
+
+.nav-container{
+	width: 100%;
+}
+
+.navbar{
+	display: grid;
+	grid-template-columns: 0.2fr auto 1fr;
+	align-items: center;
+	height: 80px;
+	width: 90%;
+	max-width: 1720px;
+	margin: 0 auto;
+
+}
+
+#navbar-logo{
+	font-size: 20px;
+	color: white;
+	justify-self: start;
+	margin-left: 20px;
+	
+}
+#navbar-logo{
+	cursor: pointer;
+}
+
+.nav-menu{
+	display: grid;
+	grid-template-columns: repeat(5, auto);
+	list-style: none;
+	text-align: center;
+	width: 70%;
+	justify-self: end;
+}
+
+.nav-links{
+	color: white;
+	
+}
+
+.nav-links:hover{
+	text-decoration: none;
+	color: blue;
+	transition: all 0.3s ease-out;
+}
+
+.nav-links-btn{
+	background-color: blue;
+	padding: 6px 16px;
+	border-radius: 4px;
+
+}
+
+.nav-links-btn:hover{
+	background-color: transparent;
+	color: white;
+	padding: 5px 15px;
+	border-radius: 4px;
+	border: solid 1px blue;
+	transition: all 0.3s ease-out;
+}
+
+.menu-toggle .bar{
+	width: 25px;
+	height: 3px;
+	margin: 5px auto;
+	transition: all 0.4 ease-in-out;
+	background: white;
+}
+
+@media screen and (max-width: 850px){
+
+	.nav-container{
+		position: relative;
+	}
+
+	.nav-menu{
+		display: grid;
+		grid-template-columns: auto;
+		background: blue;
+		padding: 0;
+		margin: 0;
+		width: 100%;
+		position: absolute;
+		top: 80px;
+		left: -100%;
+		opacity: 0;
+		transition: all 0.4s ease;
+	}
+
+	#navabr-logo{
+		margin-left: 20px;	
+	}
+
+	.nav-menu.active{
+		background: black;
+		opacity: 0.7;
+		left: 0;
+		transition: all 0.4s ease;
+	}
+
+	.nav-links{
+		text-align: center;
+		line-height: 45px;
+		width: 100%;
+		display: table;
+	}
+
+	.nav-links:hover{
+		background-color: blue;
+		color: white;
+		transition: all 0.4s ease-out;
+	}
+
+	.navbar{
+		width: 100%;
+	}
+
+	.nav-links-btn{
+		border: none;
+		padding: 0;
+		border-radius: 0;
+		background: transparent;
+		color: white;
+		transition: all 0.4s ease-out;
+	}
+
+	.nav-links-btn:hover{
+		border: none;
+		padding: 0;
+		border-radius: 0;
+		background-color: blue;
+		color: white;
+		transition: all 0.4s ease-out;
+	}
+
+	#mobile-menu{
+		position: absolute;
+		top: 20%;
+		right: 5%;
+		transform: translate(5%, 20%);
+	}
+
+	.menu-toggle .bar{
+		display: block;
+		cursor: pointer;
+	}
+
+	.menu-toggle:hover{
+		cursor: pointer;
+	}
+	
+}
